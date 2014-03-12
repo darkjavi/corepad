@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/avatar/tux-robin.png</file>
+        <file>img/icons/cplusplus.png</file>
+        <file>examples/cpp.cpp</file>
+    </qresource>
+</RCC>

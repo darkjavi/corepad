@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cSessionView</class>
+ <widget class="QDockWidget" name="cSessionView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>session_view:</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="cUsersInfoView" name="usersInfoView">
+      <property name="title">
+       <string>users:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="cPadsInfoView" name="padsInfoView">
+      <property name="title">
+       <string>pads:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="cChatroomsInfoView" name="chatroomsInfoView">
+      <property name="title">
+       <string>chatrooms:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>cUsersInfoView</class>
+   <extends>QGroupBox</extends>
+   <header>cusersinfoview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>cPadsInfoView</class>
+   <extends>QGroupBox</extends>
+   <header>cpadsinfoview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>cChatroomsInfoView</class>
+   <extends>QGroupBox</extends>
+   <header>cchatroomsinfoview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
